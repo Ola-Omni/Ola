@@ -3,7 +3,7 @@
 </p>
 <div>
 
-## Ola: Pushing the Frontiers of Omni-Modal Language Model with Progressive Modality Alignment
+## Ola: Pushing the Frontiers of Omni-Modal Language Model
 
 <p align="left">
     <a href='https://github.com/liuzuyan' target='_blank'>Zuyan Liu<sup>*,1,2</sup></a>&emsp;
@@ -52,13 +52,20 @@ Contact: Leave an issue or contact liuzuyan19@gmail.com . We are on call to resp
 
 ## 🚀Coming Soon
 
-- [ ] Evaluation code on omni-modal benchmarks
+- [x] Evaluation code on omni-modal benchmarks
 - [x] Gradio Demo
 - [x] Training Data (Video, Audio, Cross-Modality)
 
 ## 🌟 Introduction
 
-**Ola** is an Omni-modal language model that achieves competitive performance across image, video, and audio understanding compared to specialized counterparts. Ola pushes the frontiers of the omni-modal language model with the design of progressive modality alignment strategy, omni-modal architecture, and the well-designed cross-modality training data. 
+### Roads to Ola
+
+<p align="center" width="100%">
+<img src="https://ola-omni.github.io/static/images/road.png" alt="road.png" width=100%>
+</p>
+<div>
+
+**Ola** is an Omni-modal language model that achieves competitive performance across image, video, and audio understanding compared to specialized counterparts. We conduct a comprehensive exploration of architectural design, data curation, and training strategies essential for building a robust omni-modal model.
 
 <p align="center" width="100%">
 <img src="https://ola-omni.github.io/static/images/teaser.png" alt="teaser.png" width=100%>
@@ -160,7 +167,7 @@ python3 inference/infer.py --audio_path *.png,jpg --audio_path *.wav,mp3
 
 ## Evaluation
 
-Coming Soon, Stay tuned!
+You can evaluate Ola model with [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) and [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval).
 
 ## Training
 
@@ -195,7 +202,7 @@ bash ./scripts/finetune_ola_video.sh
 If you find it useful for your research and applications, please cite our paper using this BibTeX:
 ```bibtex
 @article{liu2025ola,
-title={Ola: Pushing the Frontiers of Omni-Modal Language Model with Progressive Modality Alignment},
+title={Ola: Pushing the Frontiers of Omni-Modal Language Model},
 author={Liu, Zuyan and Dong, Yuhao and Wang, Jiahui and Liu, Ziwei and Hu, Winston and Lu, Jiwen and Rao, Yongming},
 journal={arXiv preprint arXiv:2502.04328},
 year={2025}
