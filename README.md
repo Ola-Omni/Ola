@@ -202,7 +202,7 @@ bash ./scripts/finetune_ola_video.sh
 If you find it useful for your research and applications, please cite our paper using this BibTeX:
 ```bibtex
 @article{liu2025ola,
-title={Ola: Pushing the Frontiers of Omni-Modal Language Model},
+title={Ola: Pushing the Frontiers of Omni-Modal Language Model with Progressive Modality Alignment},
 author={Liu, Zuyan and Dong, Yuhao and Wang, Jiahui and Liu, Ziwei and Hu, Winston and Lu, Jiwen and Rao, Yongming},
 journal={arXiv preprint arXiv:2502.04328},
 year={2025}
